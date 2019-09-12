@@ -1,0 +1,18 @@
+@import '../../styles/theme.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px * $adaptation 0;
+  &-img {
+    width: 140px * $adaptation;
+    height: 146px * $adaptation;
+  }
+  &-text {
+    font-size: 36px;
+    color: $color-b2;
+    margin-top: 15px * $adaptation;
+  }
+}

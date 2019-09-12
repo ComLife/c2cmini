@@ -1,0 +1,53 @@
+@import '../../../styles/theme.scss';
+
+.capital-view {
+  flex-direction: column;
+  margin: 0px 90px * $adaptation;
+  display: flex;
+  &-text1 {
+    margin-top: 86px * $adaptation;
+    font-size: 86px * $adaptation;
+    color: $color-b1;
+    font-weight: bold;
+  }
+  &-text2 {
+    margin-top: 48px * $adaptation;
+    font-size: 44px * $adaptation;
+    color: $color-b3;
+  }
+  &-input {
+    height: 135px * $adaptation;
+    margin-top: 165px * $adaptation;
+  }
+}
+
+.passBoxView {
+  height: 165px * $adaptation;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+  &-passbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 165px * $adaptation;
+    height: 165px * $adaptation;
+    position: relative;
+    &-passBoxBot {
+      width: 135px * $adaptation;
+      height: 10px;
+      background-color: $color-b4;
+      border-radius: 5px;
+      position: absolute;
+      bottom: 0px;
+    }
+  }
+  &-passText {
+    color: $color-b1;
+    font-weight: bold;
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,26 @@
+@import '../../../../styles/theme.scss';
+
+.container {
+  //background-color: $color-b4;
+
+  &-percentSortingIcon {
+    margin-left: 5px;
+  }
+  &-left-wrapper{
+
+  }
+  &-middle-wrapper{
+
+  }
+  &-right-wrapper{
+
+  }
+  &-text {
+    margin: 46px * $adaptation;
+    color: $text-color;
+    font-weight: bold;
+  }
+  &-test {
+    padding: 500px 0;
+  }
+}

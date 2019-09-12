@@ -1,0 +1,61 @@
+@import '../../../../styles/theme.scss';
+
+.item{
+  margin: 0;
+  padding:0 46px*$adaptation;
+  height: 278px *$adaptation;
+  @include dir(center,column,center);
+    &__top{
+      height: 275px *$adaptation;
+      width:100%;
+      @include dir(flex-start,row,center);
+      &-left{
+        @include dir(space-around,column,flex-start);
+        width:300px *$adaptation;
+        height:120px *$adaptation;
+        &-text{
+          @include textStyle(44px,$color-b1,0);
+        }
+        &-view{
+          @include dir(center,column,center);
+          width:250px *$adaptation;
+          &-text{
+            @include textStyle(44px,$color-b1,0);
+          }
+        }
+      }
+      &-mid{
+        width:300px*$adaptation;
+        height:120px *$adaptation;
+        @include dir(space-around,column,flex-end);
+        &-text{
+          @include textStyle(44px,$color-b1,bold);
+        }
+      }
+      &-right{
+        height:120px *$adaptation;
+        @include dir(space-around,column,flex-end);
+        flex:1;
+      }
+      &-right1{
+        height:180px *$adaptation;
+        @include dir(space-around,column,flex-end);
+        flex:1;
+      }
+    }
+  &__div{
+    width:100%;
+    height: 3px*$adaptation;
+    background-color: $color-b4;
+  }
+
+}
+
+.item__top-right-text{
+  @include textStyle(44px,$color-b1,0);
+}
+
+
+.on-opacity{
+  opacity: 0.6;
+}

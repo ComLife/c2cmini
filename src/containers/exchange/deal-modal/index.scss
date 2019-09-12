@@ -1,0 +1,120 @@
+@import '../../../styles/theme.scss';
+
+$midHeight:144px* $adaptation;
+
+.exchange-deal-modal {
+  margin: 0px;
+  padding:0 42px*$adaptation;
+  background:$color-white;
+  height: 1410px * $adaptation;
+}
+
+.exchange-deal-modal__header{
+  display: flex;
+  height:118px* $adaptation;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 85px* $adaptation;
+
+  &-text{
+    font-size: 50px* $adaptation;
+    line-height: 50px* $adaptation;
+  }
+}
+
+.exchange-deal-modal__line{
+  position: absolute;
+  width:100%;
+  top:119px* $adaptation;
+  left: 0;
+  height:3px;
+  background-color:$color-b4;
+}
+
+.exchange-deal-modal__mid{
+  display: flex;
+  height:$midHeight;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+    &-text1{
+      font-size: 44px* $adaptation;
+      line-height: 44px* $adaptation;
+      color:$color-b2;
+    }
+
+    &-text2{
+      font-size: 44px* $adaptation;
+      line-height: 44px* $adaptation;
+      color:$color-b1;
+    }
+}
+
+.exchange-deal-modal__div{
+  height: 3px;
+  width: 100%;
+  background-color:$color-b4;
+  margin-bottom: 70px* $adaptation;
+}
+
+.exchange-deal-modal__zj{
+  height: 140px* $adaptation;
+  margin-top: 50px* $adaptation;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  margin-bottom: 96px* $adaptation;
+
+  &-text1{
+    flex: 16.6666%;
+    height: 140px* $adaptation;
+    font-size: 44px* $adaptation;
+    line-height: 140px* $adaptation;
+    text-align: center;
+    color:$color-b1;
+    border: 0 solid $color-b4;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+  }
+
+  &-text2{
+    flex: 16.6666%;
+    height: 140px* $adaptation;
+    font-size: 44px* $adaptation;
+    line-height: 140px* $adaptation;
+    text-align: center;
+    color:$color-b1;
+    border: 0 solid $color-b4;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+  }
+
+}
+
+.exchange-deal-modal__bottom{
+  width:100%;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  &-text{
+    font-size: 44px* $adaptation;
+    line-height: 44px* $adaptation;
+    color:$color-a1;
+  }
+}
+
+.exchange-deal-modal__unit{
+  font-size: 80px* $adaptation;
+  line-height: 80px* $adaptation;
+  color:$color-b1;
+  font-weight: bold;
+}
+
+.on-opacity{
+  opacity: 0.6;
+}

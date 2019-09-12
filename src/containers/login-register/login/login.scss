@@ -1,0 +1,70 @@
+@import '../../../styles/theme.scss';
+
+.login-view {
+  flex-direction: column;
+  margin: 0px 90px * $adaptation;
+  &-input {
+    height: 165px * $adaptation;
+    border: 0 solid $color-b4;
+    border-bottom-width: 1px;
+    font-size: 54px * $adaptation;
+    margin-top: 85px * $adaptation;
+  }
+  &-header-icon {
+    width: 629px * $adaptation;
+    height: 129px * $adaptation;
+    margin-top: 165px * $adaptation;
+  }
+  &-countryView {
+    display: flex;
+    align-items: center;
+    margin-top: 100px * $adaptation;
+    height: 80px;
+    &-text1 {
+      color: $color-b1;
+      fontweight: bold;
+      font-size: 48px * $adaptation;
+      margin-right: 16px * $adaptation;
+    }
+    &-image {
+      width: 25px * $adaptation;
+      height: 40px * $adaptation;
+    }
+  }
+}
+.input-placeholder {
+  color: $color-b3;
+}
+.loginBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $btn-press-color;
+  border-radius: 5px * $adaptation;
+  margin-top: 180px * $adaptation;
+  border: 0;
+  &-login-text {
+    color: $color-white;
+    font-weight: bold;
+  }
+  &-disabled {
+    background: $dis-press-color;
+  }
+}
+
+.forgetText {
+  color: $color-a1;
+  font-size: 44px * $adaptation;
+  margin-top: 60px * $adaptation;
+}
+.registerView {
+  margin-top: 250px * $adaptation;
+  &-text1 {
+    color: $color-b3;
+    font-size: 54px * $adaptation;
+  }
+  &-text2 {
+    color: $color-a1;
+    font-size: 54px * $adaptation;
+  }
+}

@@ -1,0 +1,23 @@
+@import '../../../styles/theme.scss';
+
+.mid-component{
+  width:100%;
+  margin: 0px;
+  padding:0 42px*$adaptation;
+  @include dir(flex-start,row,flex-start);
+  &__left{
+    width:704px*$adaptation;
+  }
+
+  &__middle{
+    width:32px*$adaptation;
+    height: 792px*$adaptation;
+  }
+
+  &__right{
+    flex:1;
+    padding:0 84px*$adaptation 0 0;
+
+  }
+}
+

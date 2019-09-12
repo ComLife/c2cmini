@@ -1,0 +1,54 @@
+@import '../../../styles/theme.scss';
+
+.exchange-header-button{
+  margin: 0px;
+  padding:0 46px*$adaptation;
+  background:$color-white;
+
+}
+
+.exchange-header-button__all{
+  height:160px * $adaptation;
+  @include dir(space-between,row,center);
+
+  &-left {
+    border-radius: 2px;
+    @include dir(flex-start,row,center);
+
+    &-btn1{
+      height: 100px* $adaptation;
+      width: 310px* $adaptation;
+      border-radius: 5px;
+      @include dir(center,row,center);
+      &-text{
+        @include textStyle(44px,$color-a3,bold);
+      }
+    }
+
+    &-btn2{
+      height: 100px* $adaptation;
+      width: 310px* $adaptation;
+      border-radius: 5px;
+      margin-left: 84px*$adaptation;
+      @include dir(center,row,center);
+
+      &-text{
+        @include textStyle(44px,$color-a3,bold);
+      }
+    }
+  }
+  &-right{
+    height:100px * $adaptation;
+    @include dir(flex-end,column,flex-end);
+    &-text1{
+      text-align: end;
+      @include textStyle(54px,$color-a2,bold);
+    }
+    &-text2{
+      text-align: end;
+      @include textStyle(40px,$color-b2,0);
+    }
+  }
+}
+
+

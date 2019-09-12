@@ -1,0 +1,37 @@
+@import '../../../../styles/theme.scss';
+
+.left-bottom{
+  margin-top: 70px*$adaptation;
+  width:100%;
+  @include dir(flex-start,column,flex-start);
+  &__view{
+    width:100%;
+    @include dir(flex-start,row,center);
+    &-text1{
+      @include textStyle(40px,$color-b2,0);
+    }
+    &-text2{
+      margin-left: 10px;
+      @include textStyle(50px,$color-b1,bold);
+    }
+  }
+  &__view1{
+    height:236px*$adaptation;
+    width: 100%;
+    @include dir(center,row,center);
+    &-btn{
+      height:148px*$adaptation;
+      width: 100%;
+      border-radius: 5px;
+      @include dir(center,row,center);
+      &-text{
+        @include textStyle(54px,$color-b1,bold);
+      }
+    }
+
+  }
+}
+
+.on-opacity{
+  opacity: 0.6;
+}

@@ -1,0 +1,96 @@
+@import '../../../styles/theme.scss';
+
+.register-view {
+  flex-direction: column;
+  margin: 0px 90px * $adaptation;
+  &-title {
+    display: block;
+    color: $color-b1;
+    font-size: 86px * $adaptation;
+    font-weight: bold;
+    margin-top: 115px * $adaptation;
+  }
+  &-phone-input {
+    height: 165px * $adaptation;
+    border: 0 solid $color-b4;
+    font-size: 54px * $adaptation;
+    border-bottom-width: 1px;
+  }
+  &-code-input-view {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 85px * $adaptation;
+    border: 0 solid $color-b4;
+    border-bottom-width: 1px;
+    &-input {
+      flex: 1;
+      font-size: 54px * $adaptation;
+      height: 165px * $adaptation;
+    }
+    &-text {
+      color: $color-a1;
+      font-size: 54px * $adaptation;
+    }
+  }
+
+  &-countryView {
+    display: flex;
+    align-items: center;
+    margin-top: 100px * $adaptation;
+    height: 135px * $adaptation;
+    &-text1 {
+      color: $color-b1;
+      fontweight: bold;
+      font-size: 48px * $adaptation;
+      margin-right: 15px * $adaptation;
+    }
+    &-image {
+      width: 25px * $adaptation;
+      height: 40px * $adaptation;
+    }
+  }
+}
+
+.login-text-view {
+  margin-top: 350px * $adaptation;
+  &-text1 {
+    color: $color-b3;
+    font-size: 54px * $adaptation;
+  }
+  &-text2 {
+    color: $color-a1;
+    font-size: 54px * $adaptation;
+  }
+}
+
+.next-step-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $btn-press-color;
+  border-radius: 5px * $adaptation;
+  margin-top: 350px * $adaptation;
+  &-text {
+    color: $white;
+    font-weight: bold;
+  }
+  &-disabled {
+    background: $dis-press-color;
+  }
+}
+
+.code-register-view {
+  margin-top: 85px * $adaptation;
+  &-next-password {
+    height: 165px * $adaptation;
+    margin-top: 85px * $adaptation;
+    border: 0 solid $color-b4;
+    border-bottom-width: 1px;
+    font-size: 54px * $adaptation;
+  }
+}
+
+.input-placeholder {
+  color: $color-b3;
+}

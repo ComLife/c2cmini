@@ -1,0 +1,26 @@
+@import '../../../../styles/theme.scss';
+
+.container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 190px * $adaptation;
+  color: $color-b3;
+  &-percentSortingIcon {
+    margin-left: 5px * $adaptation;
+  }
+  &-left-wrapper {
+    margin: 0 0 0 46px * $adaptation;
+  }
+  &-middle-wrapper {
+  }
+  &-right-wrapper {
+    margin: 0 46px * $adaptation 0 0;
+  }
+  &-text {
+    margin: 46px * $adaptation;
+    color: $text-color;
+    font-weight: bold;
+  }
+}

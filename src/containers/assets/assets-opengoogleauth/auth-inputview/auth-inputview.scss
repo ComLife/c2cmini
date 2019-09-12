@@ -1,0 +1,66 @@
+@import '../../../../styles/theme.scss';
+
+.auth-input-item {
+    // position: relative;
+    display: flex;
+    margin: 0;
+    height: 320px* $adaptation;  
+    flex-direction: column;
+    margin: 0px 40px* $adaptation;
+}
+.auth-input-item__title{
+    font-family: PingFang-SC-Bold;
+	font-size: 44px* $adaptation;
+    color: #333333;
+    margin-top: 60px* $adaptation;
+}
+.auth-input-item__view
+{
+    margin-top: 40px* $adaptation;
+    height: 120px* $adaptation;
+    border: solid 1px* $adaptation #e0e0e0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+
+.auth-input-item__input {
+    color: #8d93a9;
+    font-family: PingFangSC-Regular;
+	font-size: 44px* $adaptation;
+    margin-left: 28px* $adaptation;
+    align-items:stretch;
+    // background: red;
+    height: 120px* $adaptation;
+    width: 70%;
+    &--placeholder {
+      color: #333333;
+    }
+  }
+  .auth-input-item__label{
+    height: 120px* $adaptation;
+    width: 70%;
+    margin-left: 28px* $adaptation;
+    display: flex;
+    align-items:center;
+  }
+  .auth-input-item__label_text{
+    font-family: PingFang-SC-Medium;
+	font-size: 44px* $adaptation;
+    color: #333333;
+  }
+  .auth-input-item__bgview{
+    align-items:center;
+    display: flex;
+    align-items:center;
+  }
+  .auth-input-item__send {
+    margin-right: 28px* $adaptation;
+    font-family: PingFang-SC-Medium;
+	font-size: 44px* $adaptation;
+	color: #2983dc;
+    white-space : nowrap;  
+    }
+
+ 

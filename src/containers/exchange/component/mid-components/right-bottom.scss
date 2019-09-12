@@ -1,0 +1,39 @@
+@import '../../../../styles/theme.scss';
+
+.right-bottom{
+  flex:1;
+  width:100%;
+  //height: 100px;
+  @include dir(space-between,row,center);
+  &__view{
+    @include dir(space-around,row,center);
+    height:62px*$adaptation;
+    width:240px*$adaptation;
+    border:1px solid $color-b4;
+    border-radius: 5px;
+    &-text{
+      @include textStyle(36px,$color-b2,0);
+    }
+
+    &-image{
+      width:30px*$adaptation;
+      height:18px*$adaptation;
+    }
+  }
+
+  &__view1{
+    height:62px*$adaptation;
+    width:91px*$adaptation;
+    border:1px solid $color-b4;
+    border-radius: 5px;
+    @include dir(center,row,center);
+    &-image{
+      width:48px*$adaptation;
+      height:38px*$adaptation;
+    }
+  }
+}
+
+.on-opacity{
+  opacity: 0.6;
+}

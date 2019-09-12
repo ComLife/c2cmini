@@ -1,0 +1,57 @@
+@import '../../../../styles/theme.scss';
+
+.container {
+  align-items: center;
+  &-wrapper {
+    height: 190px * $adaptation;
+    @include dir(space-between, row, center);
+  }
+  &-left-wrap {
+    flex: 1;
+    height: 120px * $adaptation;
+    margin: 0 0 0 46px * $adaptation;
+    @include dir(space-between, column, flex-start);
+    &-name-wrapper {
+      @include dir(flex-start, row, center);
+      &-base-name {
+        @include textStyle(54px, $color-b1, bold);
+      }
+      &-coin-name {
+        margin-top: 2px * $adaptation;
+        @include textStyle(40px, $color-b2, 0);
+      }
+      &-24-count {
+        @include textStyle(40px, $color-b2, 0);
+      }
+    }
+  }
+  &-mid-wrap {
+    @include dir(space-between, column, flex-start);
+    flex: 1;
+    height: 120px * $adaptation;
+    &-row1 {
+      @include textStyle(54px, $color-b1, bold);
+    }
+    &-row2 {
+      @include textStyle(40px, $color-b2, 0);
+    }
+  }
+  &-right-wrap {
+    width: 260px * $adaptation;
+    height: 100px * $adaptation;
+    background-color: $color-a2;
+    border-radius: 5px * $adaptation;
+    @include textStyle(44px, $white, 0);
+    text-align: center;
+    line-height: 100px * $adaptation;
+    margin: 0 46px * $adaptation 0 0;
+  }
+}
+
+.left-space {
+  margin-left: 10px * $adaptation;
+}
+
+.left-space2 {
+  margin-left: 20px * $adaptation;
+}

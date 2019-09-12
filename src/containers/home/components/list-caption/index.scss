@@ -1,0 +1,13 @@
+@import '../../../../styles/theme.scss';
+
+.container {
+  //background-color: $color-b4;
+  &-text {
+    height: 180px * $adaptation;
+    margin: 0 0 0 46px * $adaptation;
+    display: flex;
+    align-items: center;
+    color: $color-b1;
+    font-weight: bold;
+  }
+}

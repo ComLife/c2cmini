@@ -1,0 +1,112 @@
+@import '../../../styles/theme.scss';
+.at-list__item {
+  padding: 52px * $adaptation 46px * $adaptation;
+  position: relative;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 48px * $adaptation;
+  line-height: 1.5;
+  transition: background-color 0.3s;
+  position: relative;
+}
+.at-indexes__list-title {
+  padding: 26px * $adaptation 46px * $adaptation;
+  width: 100%;
+  color: #7f7f7f;
+  font-size: 40px * $adaptation;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.at-list__item::after {
+  content: '';
+  position: absolute;
+  transform-origin: center;
+  box-sizing: border-box;
+  pointer-events: none;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: scaleY(0.5);
+  border-bottom: 1px solid #d6e4ef;
+}
+.at-indexes__menu-item {
+  padding: 2px 10px;
+  color: #37374a;
+  font-size: 44px * $adaptation;
+  text-align: center;
+}
+.header-view {
+  //position: fixed;
+  width: 100%;
+  background-color: $white;
+}
+.inputDiving {
+  width: 100%;
+  height: 2px * $adaptation;
+  background-color: #efefef;
+}
+.search-view {
+  display: flex;
+  height: 120px * $adaptation;
+  margin: 46px * $adaptation 30px * $adaptation;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f5f6fb;
+}
+.search-icon {
+  width: 56px * $adaptation;
+  height: 56px * $adaptation;
+  margin-left: 66px * $adaptation;
+}
+.search-input {
+  font-size: 40px * $adaptation;
+  margin-left: 4px;
+}
+.title-view {
+  height: 90px * $adaptation;
+  background-color: #f5f6fb;
+  display: flex;
+  align-items: center;
+  color: #37374a;
+  font-size: 40px * $adaptation;
+  &-text {
+    margin: 50px * $adaptation 25px * $adaptation;
+  }
+}
+.item-view {
+  display: flex;
+  justify-content: space-between;
+  height: 150px * $adaptation;
+  align-items: center;
+  font-size: 48px * $adaptation;
+  border-bottom: 1px solid #d6e4ef;
+  &-text1 {
+    margin: 50px * $adaptation 50px * $adaptation;
+    color: #37374a;
+  }
+  &-text2 {
+    margin: 114px * $adaptation 70px * $adaptation;
+    color: #5171ec;
+  }
+}
+item-view:active {
+  background-color: #000;
+}
+.scroll-view {
+  height: 1100px;
+}
+.char-list {
+  display: flex;
+  flex-direction: column;
+  width: 50px * $adaptation;
+  position: fixed;
+  top: 240px;
+  right: 0;
+  &-text {
+    font-size: 40px * $adaptation;
+    color: #37374a;
+    margin: 8px * $adaptation 0;
+  }
+}

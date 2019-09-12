@@ -1,0 +1,10 @@
+@import '../../../../styles/theme.scss';
+
+.banner {
+  margin: 0px;
+  padding: 15px * $adaptation 46px * $adaptation;
+  &-img {
+    width: 1150px * $adaptation;
+    height: 550px * $adaptation;
+  }
+}

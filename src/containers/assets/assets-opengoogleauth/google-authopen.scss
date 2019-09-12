@@ -1,0 +1,68 @@
+@import '../../../styles/theme.scss';
+
+.google-auth {
+    background: #F7F7F7;
+}
+.google-auth-header{
+    background-color: #ffffff;
+    border: 0 solid #f5f5f7;;
+    border-bottom-width: 1px* $adaptation;
+    border-bottom-color:#e0e0e0;;
+}
+.google-auth--inputview {
+    margin-top: 62px* $adaptation;
+    background-color: #ffffff;
+    height: 1340px* $adaptation;
+    border: 0 solid #f5f5f7;
+    border-top-width: 1px* $adaptation;
+    border-top-color:#e0e0e0;;
+    border-bottom-width: 1px* $adaptation;
+    border-bottom-color:#e0e0e0;;
+
+  }
+  .google-auth-signtextview{
+    margin-left: 42px* $adaptation;
+    margin-right: 42px* $adaptation;
+  }
+  .google-auth-signtext{
+    font-family: PingFang-SC-Medium;
+	font-size: 40px* $adaptation;
+    color: #666666;
+  }
+
+  .google-authopenBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px* $adaptation;
+    margin: 60px* $adaptation 40px* $adaptation;
+    background: #2983dc;
+    &-text {
+      color: #ffffff;
+      font-family: PingFang-SC-Medium;
+	  font-size: 50px* $adaptation;
+    }
+    &-disabled {
+      background: #b5b5b5;
+    }
+  }
+  .google-auth-getcodeview{
+    position: relative;
+  }
+  .google-auth-getcodeview-textnormal{
+    position: absolute;
+    right: 70px* $adaptation;
+    top:190px* $adaptation;
+    font-family: PingFang-SC-Medium;
+    font-size: 44px* $adaptation;
+    color: #2983dc;
+  }
+  .google-auth-getcodeview-text{
+    position: absolute;
+    right: 70px* $adaptation;
+    top:190px* $adaptation;
+    // z-index: 0;
+    font-family: PingFang-SC-Medium;
+    font-size: 44px* $adaptation;
+    color: #b5b5b5;
+  }

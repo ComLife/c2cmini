@@ -1,0 +1,21 @@
+@import '../../styles/theme.scss';
+
+.exchange__div{
+  background-color:$color-b4;
+  height: 3px;
+}
+
+.exchange__div1{
+  background-color:$color-b4;
+  height: 32px;
+}
+
+.exchange__div2{
+  background-color:$color-b4;
+  margin-bottom: 23px*$adaptation;
+  height: 3px;
+}
+
+.on-opacity{
+  opacity: 0.6;
+}

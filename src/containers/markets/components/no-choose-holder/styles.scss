@@ -1,0 +1,21 @@
+@import '../../../../styles/theme.scss';
+
+.container {
+  height: 366px * $adaptation;
+  width: 400px * $adaptation;
+  @include dir(space-between, column, center);
+  &-img {
+    width: 243px * $adaptation;
+    height: 207px * $adaptation;
+  }
+  &-btn {
+    width: 400px * $adaptation;
+    height: 100px * $adaptation;
+    border-radius: 50px * $adaptation;
+    color: $white;
+    text-align: center;
+    line-height: 100px * $adaptation;
+    background-color: $color-a1;
+    font-size: 44px * $adaptation;
+  }
+}

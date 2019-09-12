@@ -1,0 +1,66 @@
+@import '../../../styles/theme.scss';
+
+.deal-item{
+  margin-top: 61px* $adaptation;
+  padding:0 46px*$adaptation;
+  height: 220px * $adaptation;
+}
+
+.deal-item__view{
+  @include dir(flex-start,row,center);
+  margin-bottom: 61px* $adaptation;
+  &-view{
+    width:12px*$adaptation;
+    height:154px*$adaptation;
+    background-color: #eb4d5c;
+
+  }
+
+  &-view1{
+    height: 100px*$adaptation;
+    margin-left:24px*$adaptation;
+    @include dir(center,column,center);
+    &-text{
+      @include textStyle(44px,$color-b1,0);
+    }
+  }
+
+  &-view2{
+    margin-left:100px*$adaptation;
+    height: 154px*$adaptation;
+    @include dir(flex-start,column,flex-start);
+
+    &-text{
+      @include textStyle(54px,$color-b1,bold);
+    }
+
+    &-text1{
+      @include textStyle(44px,$color-b2,0);
+    }
+  }
+
+  &-view3{
+    flex:1;
+    height: 154px*$adaptation;
+    @include dir(flex-end,row,center);
+    &-view{
+      width:240px*$adaptation;
+      height: 100px*$adaptation;
+      @include dir(center,row,center);
+      border-radius: 5px;
+      background-color: $color-a1;
+      &-text{
+        @include textStyle(44px,$color-white,bold);
+      }
+    }
+  }
+}
+
+.deal-item__div{
+  background-color:$color-b4;
+  height: 3px;
+}
+
+.on-opacity{
+  opacity: 0.6;
+}

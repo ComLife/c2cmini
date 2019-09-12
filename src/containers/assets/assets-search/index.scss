@@ -1,0 +1,70 @@
+@import '../../../styles/theme.scss';
+
+.AssetsSearch{
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 180px * $adaptation;
+  display: flex;
+  &-view{
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    &-image{
+      margin-left: 46px * $adaptation;
+      width: 48px * $adaptation;
+      height: 48px * $adaptation;
+    }
+    &-button{
+      margin-left: 60px * $adaptation;
+      width: 500px * $adaptation;
+      height: 100px * $adaptation;
+      &-view{
+        height: 100px * $adaptation;
+        align-items: center;
+        display: flex;
+        &-text{
+          margin-right: 46px * $adaptation;
+          font-size: 44px * $adaptation;
+          color: $color-b2,
+        }
+      }
+    }
+  }
+  &-view1{
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    display: flex;
+    &-view{
+      margin-right: 40px * $adaptation;
+      &-view{
+        flex: 1;
+        justify-content: center;
+        display: flex;
+        &-image{
+          width: 42px * $adaptation;
+          height: 42px * $adaptation;
+        }
+      }
+    }
+    &-view1{
+      margin-right: 20px * $adaptation;
+      align-items: center;
+      justify-content: center;
+      margin-top: -5px * $adaptation;
+      display: flex;
+      &-image{
+        width: 48px * $adaptation;
+        height: 48px * $adaptation;
+      }
+    }
+    &-text{
+      margin-right: 46px * $adaptation;
+      font-size: 44px * $adaptation;
+      color: $color-b2;
+    }
+  }
+}

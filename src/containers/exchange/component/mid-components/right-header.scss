@@ -1,0 +1,14 @@
+@import '../../../../styles/theme.scss';
+
+.right-header{
+  height: 126px*$adaptation;
+  width:100%;
+  @include dir(space-between,row,center);
+  &__text{
+    @include textStyle(36px,$color-b3,0);
+  }
+}
+
+.on-opacity{
+  opacity: 0.6;
+}

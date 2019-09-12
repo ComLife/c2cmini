@@ -1,0 +1,79 @@
+@import '../../../../styles/theme.scss';
+@function function-name($args) {
+  @return value-to-be-returned;
+}
+.left-middle{
+  height: 435px*$adaptation;
+  width:100%;
+  @include dir(flex-start,column,flex-start);
+  &__view{
+    @include dir(flex-start,row,center);
+    height: 140px*$adaptation;
+    border: 1px solid $color-b4;
+    width:100%;
+
+    &-input{
+      width:410px*$adaptation;
+      height: 140px*$adaptation;
+    }
+
+    &-div{
+      width:3px;
+      height: 140px*$adaptation;
+      background-color: $color-b4;
+    }
+
+    &-btn{
+      @include dir(center,column,center);
+      height: 140px*$adaptation;
+      flex:1;
+      &-image{
+        width:38px*$adaptation;
+        height:38px*$adaptation;
+      }
+      &-image1{
+        width:38px*$adaptation;
+        height:8px*$adaptation;
+      }
+    }
+  }
+
+  &__view1 {
+    @include dir(flex-start,row,center);
+    height: 85px*$adaptation;
+    width:100%;
+    &-text{
+      @include textStyle(40px,$color-b2,0)
+    }
+  }
+
+  &__view2 {
+    @include dir(flex-start,row,center);
+    height: 140px*$adaptation;
+    border: 1px solid $color-b4;
+    width:100%;
+    &-input{
+      flex:1;
+    }
+    &-view{
+      width:218px*$adaptation;
+      height: 140px*$adaptation;
+      @include dir(center,row,center);
+      &-text{
+        @include textStyle(44px,$color-b2,bold)
+      }
+    }
+  }
+
+  &__view3 {
+    @include dir(flex-start,row,center);
+    flex:1;
+    width:100%;
+    &-text{
+      @include textStyle(40px,$color-b2,0)
+    }
+  }
+}
+.on-opacity{
+  opacity: 0.6;
+}

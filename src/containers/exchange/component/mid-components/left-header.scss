@@ -1,0 +1,19 @@
+@import '../../../../styles/theme.scss';
+
+.left-header{
+  height: 126px*$adaptation;
+  width:150px*$adaptation;
+  @include dir(flex-start,row,center);
+  &__text{
+    @include textStyle(44px,$color-b2,0);
+  }
+  &__image{
+    margin-left: 25px*$adaptation;
+    width:30px*$adaptation;
+    height: 18px*$adaptation;
+  }
+}
+
+.on-opacity{
+  opacity: 0.6;
+}

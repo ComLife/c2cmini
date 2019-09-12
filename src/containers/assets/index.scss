@@ -1,0 +1,22 @@
+@import '../../styles/theme.scss';
+.index {
+  flex-direction: column;
+  width: 100%;
+}
+.blankView{
+  margin-top: 26px * $adaptation,
+}
+.swiperView{
+  width: 1242px * $adaptation;
+  height: 360px * $adaptation;
+}
+.colorView{
+  background-color: $color-b5;
+  width: 1242px * $adaptation;
+  height: 30px * $adaptation;
+}
+.lineView {
+  width: 1242px * $adaptation;
+  height: 4px * $adaptation;
+  backgroundColor: $color-b4,
+}

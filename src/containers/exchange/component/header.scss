@@ -1,0 +1,42 @@
+@import '../../../styles/theme.scss';
+
+.exchange-header{
+  margin: 0px;
+  padding:0 46px*$adaptation;
+  background:$color-white;
+  height: 173px * $adaptation;
+}
+
+.exchange-header__left{
+  display: flex;
+  height:173px * $adaptation;
+  @include dir(space-between,row,center);
+
+  &-view {
+    height: 48px* $adaptation;
+    display: flex;
+    @include dir(center,row,center);
+    border: 0 solid #12b886;
+
+    &-image1 {
+      width: 52px* $adaptation;
+      height: 48px* $adaptation;
+    }
+
+    &-image2 {
+      width: 52px* $adaptation;
+      height: 48px* $adaptation;
+    }
+
+    &-text {
+      font-size: 50px* $adaptation;
+      line-height: 50px* $adaptation;
+      color: $color-b1;
+      font-weight: bold;
+    }
+  }
+}
+
+.on-opacity{
+  opacity: 0.6;
+}

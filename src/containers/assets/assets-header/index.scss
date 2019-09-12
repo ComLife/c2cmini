@@ -1,0 +1,63 @@
+@import '../../../styles/theme.scss';
+
+.index {
+  flex-direction: column;
+  width: 100%;
+}
+.body{
+  margin-top: 26px * $adaptation;
+  flex-direction: row;
+  &-view{
+    //align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 1242px * $adaptation;
+    height: 100px * $adaptation;
+    &-view{
+      @include dir(flex-start,row,center);
+      width: 1242px * $adaptation - 120px * $adaptation;
+      height: 100px * $adaptation;
+      &-text{
+        margin-left: 48px * $adaptation;
+        font-size: 40px * $adaptation;
+        color: $color-b2;
+      }
+      &-text1{
+        margin-left: 20px * $adaptation;
+        font-size: 54px * $adaptation;
+        color: $color-b1;
+        font-weight: bold;
+      }
+      &-text2{
+        margin-left: 14px * $adaptation;
+        font-size: 40px * $adaptation;
+        color: $color-b1;
+      }
+      &-text3{
+        margin-left: 16px * $adaptation;
+        font-size: 39px * $adaptation;
+        color: $color-b2;
+      }
+    }
+  }
+}
+
+.endView{
+  flex: 1;
+  height: 100px * $adaptation;
+  &-button{
+    margin-right: 20px * $adaptation;
+    width: 100px * $adaptation;
+    height: 100px * $adaptation;
+    @include dir(center,row,center);
+    &-view{
+      width: 100px * $adaptation;
+      height: 100px * $adaptation;
+      @include dir(center,row,center);
+      &-image{
+        width: 54px * $adaptation;
+        height: 50px * $adaptation;
+      }
+    }
+  }
+}

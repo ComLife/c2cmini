@@ -1,0 +1,48 @@
+@import "./mixins.scss";
+
+$primary-color: #ab2b2b;
+$disabled-color: #dddddd;
+
+$dis-press-color: #d3dee4;
+$btn-press-color: #546ff6;
+
+$black: #000000;
+$white: #ffffff;
+
+$text-color: #333333;
+$text-color-light: #666666;
+$text-color-lighter: #999999;
+
+$border-color: #dddddd;
+$border-radius: 4px;
+
+$image-bg: #f4f4f4;
+
+$adaptation:0.604;
+$color-a1: #248aef;
+$color-a2: #12b886;
+$color-a3: #eb4d5c;
+$color-b1:#1f3f58;
+$color-b2:#828fa0;
+$color-b3:#c5c9d5;
+$color-b4:#e2e7ea;
+$color-b5:#f2f3f8;
+$color-c1:#ddf4ee;
+$color-c2:#fdedee;
+$color-white:#ffffff;
+$color-black:#000000;
+$color-gray:#F7F7F7;
+
+@mixin dir($attr,$dir,$attr1) {
+  display: flex;
+  justify-content: $attr;
+  flex-direction: $dir;
+  align-items: $attr1;
+}
+
+@mixin textStyle($size,$color,$isWeight) {
+  font-size: $size* $adaptation;
+  line-height: $size* $adaptation;
+  color:$color;
+  font-weight:$isWeight;
+}

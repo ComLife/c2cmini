@@ -1,0 +1,24 @@
+@import '../../../../styles/theme.scss';
+
+.right-middle{
+  height: 880px*$adaptation;
+  width:100%;
+}
+
+.right-middle__map{
+  height: 80px*$adaptation;
+  width:100%;
+  @include dir(space-between,row,center);
+  &-text{
+    @include textStyle(40px,$color-b2,0);
+  }
+  &-div{
+    height: 5px*$adaptation;
+    width:100%;
+    background-color: $color-b4;
+  }
+}
+
+.on-opacity{
+  opacity: 0.6;
+}

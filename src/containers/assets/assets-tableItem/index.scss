@@ -1,0 +1,86 @@
+@import '../../../styles/theme.scss';
+
+
+.AssetsTableItem {
+  height: 330px * $adaptation;
+  &-text{
+    margin-top: 60px * $adaptation;
+    margin-left: 46px * $adaptation;
+    font-size: 54px * $adaptation;
+    color: $color-a1;
+    font-weight: bold;
+  }
+  &-view{
+    margin-top: 40px * $adaptation;
+    flex-direction: row;
+    display: flex;
+    &-view{
+      display: flex;
+      margin-left: 48px * $adaptation;
+      width: (1242px - 96px) * $adaptation / 3;
+      &-text{
+        font-size: 40px * $adaptation;
+        color: $color-b3,
+      }
+    }
+    &-view1{
+      display: flex;
+      width: (1242px - 96px) * $adaptation / 3;
+      &-text{
+        font-size: 40px * $adaptation;
+        color: $color-b3,
+      }
+    }
+    &-view2{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      width: (1242px - 96px) * $adaptation / 3;
+      &-text{
+        font-size: 40px * $adaptation;
+        color: $color-b3,
+      }
+    }
+  }
+  &-view1{
+    margin-top: 10px * $adaptation;
+    flex-direction: row;
+    display: flex;
+    &-view{
+      display: flex;
+      margin-left: 48px * $adaptation;
+      width: (1242px - 96px) * $adaptation / 3;
+      &-text{
+        font-size: 39px * $adaptation;
+        color: $color-b1,
+      }
+    }
+    &-view1{
+      display: flex;
+      width: (1242px - 96px) * $adaptation / 3;
+      &-text{
+        font-size: 39px * $adaptation;
+        color: $color-b1,
+      }
+    }
+    &-view2{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      width: (1242px - 96px) * $adaptation / 3;
+      &-text{
+        font-size: 39px * $adaptation;
+        color: $color-b1,
+      }
+    }
+  }
+}
+.line{
+  flex-direction: row;
+  display: flex;
+  margin-top: 30px * $adaptation;
+  margin-left: 46px * $adaptation;
+  width: (1242px - 92px) * $adaptation;
+  height: 2px;
+  background-color: $color-b4;
+}

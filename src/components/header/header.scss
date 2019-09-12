@@ -1,0 +1,29 @@
+.heade-view {
+  background-color: white;
+  display: flex;
+  height: 100px;
+  &-back-view {
+    height: 100px;
+    width: 80px;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    &-image {
+      height: 32px;
+      width: 19px;
+    }
+  }
+  &-title-view {
+    display: flex;
+    position: absolute;
+    left: 80px;
+    right: 80px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  &-title {
+    font-size: 40px;
+    font-weight: bold;
+  }
+}

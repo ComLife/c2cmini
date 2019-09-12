@@ -1,0 +1,27 @@
+@import '../../../../styles/theme.scss';
+
+.select-page{
+  margin: 0;
+  padding:0 46px*$adaptation;
+  height: 128px * $adaptation;
+  @include dir(space-between,row,center);
+  &__btn{
+    flex:1;
+    @include dir(flex-start,row,center);
+    &-text{
+      @include textStyle(44px,$color-b2,0);
+    }
+
+    &-image{
+      margin-left: 10px*$adaptation;
+      width:34px * $adaptation;
+      height: 18px * $adaptation;
+    }
+  }
+}
+
+
+
+.on-opacity{
+  opacity: 0.6;
+}

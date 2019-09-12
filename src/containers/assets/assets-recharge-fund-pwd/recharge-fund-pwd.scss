@@ -1,0 +1,95 @@
+@import '../../../styles/theme';
+
+page {
+  background-color: $color-gray;
+}
+
+.dividing-line {
+  width: 100%;
+  height: 3px * $adaptation;
+  background-color: $color-b4;
+}
+
+.recharge-pwd-tips {
+  display: flex;
+  margin-top: 30px * $adaptation;
+  align-items: center;
+  height: 310px* $adaptation;
+  background-color: white;
+  text-align: center;
+
+  &-tv {
+    margin-left: 108px* $adaptation;
+    margin-right: 108px* $adaptation;
+    font-size: 44px* $adaptation;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #1f3f58;
+  }
+}
+
+.input-item {
+  height: 155px* $adaptation;
+  margin-top: 30px* $adaptation;
+  padding: 28px* $adaptation;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+}
+
+.input-code {
+  font-size: 44px* $adaptation;
+}
+
+.input-fund-code {
+  font-size: 44px* $adaptation;
+}
+
+.input-fund-code-again {
+  font-size: 44px* $adaptation;
+}
+
+.get_verifycode {
+  margin-right: 47px* $adaptation;
+  font-size: 44px* $adaptation;
+  font-weight: bold;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: $color-a1;
+}
+
+.import-tips {
+  margin-left: 46px* $adaptation;
+  color: $color-a3;
+  font-size: 40px* $adaptation;
+  text-align: center;
+}
+
+.import-tips-parent {
+  margin-top: 65px* $adaptation;
+}
+
+.submit-bt-parent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 118px* $adaptation;
+  align-items: center;
+}
+
+.submit-bt {
+  width: 100%;
+  height: 148px* $adaptation;
+  margin-left: 46px* $adaptation;
+  margin-right: 46px* $adaptation;
+  background-color: #248aef;
+  color: white;
+  border-radius: 5px* $adaptation;
+  text-align: center;
+  font-size: 54px* $adaptation;
+}

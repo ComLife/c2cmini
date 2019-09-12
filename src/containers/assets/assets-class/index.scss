@@ -1,0 +1,87 @@
+@import '../../../styles/theme.scss';
+
+
+.AssetsClass{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  &-view{
+    width: 1242px / 2 * $adaptation;
+    height: 202px * $adaptation;
+    align-items: center;
+    justify-content: center;
+  }
+  &-view1{
+    margin-left: 6px * $adaptation;
+    width: 240px * $adaptation;
+    height: 202px * $adaptation;
+    &-button
+    {
+      width: 1242px / 4 * $adaptation;
+      height: 202px * $adaptation;
+      &-view{
+        width: 240px * $adaptation;
+        height: 202px * $adaptation;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        &-image{
+          width: 50px * $adaptation;
+          height: 56px * $adaptation;
+        }
+        &-text{
+          margin-left: 22px * $adaptation;
+          font-size: 44px * $adaptation;
+          color: $color-b2;
+        }
+      }
+    }
+  }
+  &-view2 {
+    margin-left: 60px * $adaptation;
+    width: 240px * $adaptation;
+    height: 202px * $adaptation;
+  }
+  &-view3 {
+    margin-left: 90px * $adaptation;
+    width: 240px * $adaptation;
+    height: 202px * $adaptation;
+  }
+}
+
+.AssetsView{
+  height: 202px * $adaptation;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  &-image{
+    width: 49px * $adaptation;
+    height: 56px * $adaptation;
+  }
+  &-image1{
+    width: 62px * $adaptation;
+    height: 54px * $adaptation;
+  }
+  &-image2{
+    width: 68px * $adaptation;
+    height: 56px * $adaptation;
+  }
+  &-text{
+    margin-left: 22px * $adaptation;
+    font-size: 44px * $adaptation;
+    color: $color-b2;
+  }
+}
+
+.addAssets{
+  width: 240px * $adaptation;
+}
+.addAssets1{
+  width: 280px * $adaptation;
+}
+.addAssets2{
+  width: 1242px / 2 * $adaptation;
+}
+

@@ -1,0 +1,30 @@
+@import '../../../../styles/theme.scss';
+
+.header{
+  margin: 0;
+  padding:0 46px*$adaptation;
+  height: 173px *$adaptation;
+  @include dir(space-between,row,center);
+  &__left{
+    @include dir(center,row,center);
+    width:40px * $adaptation;
+    height:40px * $adaptation;
+    &-image{
+      width:20px * $adaptation;
+      height:40px * $adaptation;
+    }
+  }
+  &__mid{
+    @include dir(center,row,center);
+    flex:1;
+    &-text{
+      @include textStyle(50px,$color-b1,bold);
+    }
+  }
+}
+
+
+
+.on-opacity{
+  opacity: 0.6;
+}
